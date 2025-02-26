@@ -1,0 +1,34 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+#map-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.map {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#map2 {
+    clip-path: inset(0 50% 0 0);
+}
+
+#slider {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 5px;
+    background: rgba(255, 255, 255, 0.8);
+    cursor: ew-resize;
+    z-index: 10;
+}
